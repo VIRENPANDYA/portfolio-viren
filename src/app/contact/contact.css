@@ -1,0 +1,39 @@
+.contact-container {
+    max-width: 800px;
+    padding: 50px 20px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contact-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-container p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  
+  .contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .contact-links a {
+    text-decoration: none;
+    color: #111;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: color 0.3s;
+  }
+  
+  .contact-links a:hover {
+    color: #ff9900;
+  }
+  

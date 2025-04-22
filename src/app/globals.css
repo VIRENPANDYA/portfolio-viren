@@ -1,0 +1,29 @@
+/* GLOBAL RESET & BASE THEME */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #1f1f1f;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s;
+}
+
+h1, h2, h3 {
+  color: #1f1f1f;
+}
+
+main {
+  min-height: 80vh;
+  padding-bottom: 40px;
+}
