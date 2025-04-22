@@ -15,7 +15,7 @@ export default function HomePage() {
         <p className="tagline">Aspiring Web Developer | Cinephile | Anime & Comic Fan</p>
         <p className="intro">
           Currently studying Computer Programming at Conestoga College, I enjoy crafting clean, responsive websites and full-stack apps using technologies like React, Node.js, and MongoDB.
-          I'm passionate about building digital experiences that are not only functional but also inspired by the art of cinema and storytelling.
+          I am passionate about building digital experiences that are not only functional but also inspired by the art of cinema and storytelling.
         </p>
         <div className="social-icons">
           <a href="https://github.com/VIRENPANDYA" target="_blank"><FaGithub size={40} /></a>
@@ -52,7 +52,7 @@ export default function HomePage() {
             <li><span>2018 to 2021:</span> IT Diploma, Polytechnic Gandhinagar</li>
             <li><span>2023 to 2025:</span> Computer Programming, Conestoga College</li>
             <li><span>2024:</span> Solo Game Project: Tank Battle Royal</li>
-            <li><span>2025 Present:</span> Building Capstone: Forkify</li>
+            <li><span>2025 Present:</span> Building Capstone Project: Forkify</li>
           </ul>
         </div>
       </section>
@@ -93,7 +93,7 @@ export default function HomePage() {
 
       {/* CONTACT */}
       <section className="contact-section" id="contact">
-        <h2>Let's Connect!</h2>
+        <h2>Let&apos;s Connect!</h2>
         <div className="contact-grid">
           <div className="left-images">
               <Image src="/sketchone.jpg" alt="Sketch 1" width={250} height={350} />
