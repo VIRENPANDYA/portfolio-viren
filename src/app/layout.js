@@ -1,7 +1,7 @@
 import './globals.css';
 import '../styles/layout.css';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
 
 export const metadata = {
   title: "Viren's Portfolio",
