@@ -1,95 +1,43 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+'use client';
+import './page.css';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
+    <section className="home-container">
+      {/* Hero Section */}
+      <div className="hero">
+        <h1>Hi, I'm <span className="highlight">Viren Pandya</span></h1>
+        <p className="tagline">Aspiring Web Developer | Cinephile | Anime & Comic Fan</p>
+        <p className="intro">
+          Currently studying Computer Programming at Conestoga College, I enjoy crafting clean, responsive websites and full-stack apps using technologies like React, Node.js, and MongoDB.
+          I'm passionate about building digital experiences that are not only functional but also inspired by the art of cinema and storytelling.
+        </p>
+        <div className="social-icons">
+          <a href="https://github.com/VIRENPANDYA" target="_blank" rel="noreferrer">
+            <FaGithub size={30} />
           </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
+          <a href="https://www.linkedin.com/in/viren-pandya/" target="_blank" rel="noreferrer">
+            <FaLinkedin size={30} />
           </a>
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </div>
+
+      {/* Skills Section */}
+      <div className="skills-section">
+        <h2>Skills</h2>
+        <ul className="skills-list">
+          <li>HTML, CSS, JavaScript, React</li>
+          <li>Node.js, Express.js, MongoDB, SQL</li>
+          <li>Git, GitHub, VS Code, Postman</li>
+          <li>Responsive Design, Flexbox, Grid</li>
+        </ul>
+      </div>
+
+      {/* Fun Interests */}
+      <div className="interests-banner">
+        <p>🎬 Movie Buff • 📖 ComicBook Fan • 🎮 Casual Gamer</p>
+      </div>
+    </section>
   );
 }
