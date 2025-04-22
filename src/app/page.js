@@ -40,7 +40,7 @@ export default function HomePage() {
       <section className="about-section" id="about">
         <h2>About Me</h2>
         <p>
-          I'm <strong>Viren Pandya</strong>, currently pursuing a Diploma in <strong>Computer Programming at Conestoga College</strong>, and previously graduated in IT from Gujarat, India.
+          I am <strong>Viren Pandya</strong>, currently pursuing a Diploma in <strong>Computer Programming at Conestoga College</strong>, and previously graduated in IT from Gujarat, India.
         </p>
         <p>
           I bring creativity into code and my love for cinema, anime, and comics drives my eye for design and user experience. My goal is to turn problems into clean, functional digital solutions.
@@ -49,10 +49,10 @@ export default function HomePage() {
         <div className="timeline">
           <h3>📘 Timeline</h3>
           <ul>
-            <li><span>2018–2021:</span> IT Diploma – Polytechnic Gandhinagar</li>
-            <li><span>2023–2025:</span> Computer Programming – Conestoga College</li>
+            <li><span>2018&ndash;2021:</span> IT Diploma &ndash; Polytechnic Gandhinagar</li>
+            <li><span>2023&ndash;2025:</span> Computer Programming &ndash; Conestoga College</li>
             <li><span>2024:</span> Solo Game Project: Tank Battle Royal</li>
-            <li><span>2025–Present:</span> Building Capstone: Forkify</li>
+            <li><span>2025&ndash;Present:</span> Building Capstone: Forkify</li>
           </ul>
         </div>
       </section>
@@ -102,7 +102,7 @@ export default function HomePage() {
 
           <div className="contact-card">
             <h3>Contact Me</h3>
-            <p>I’d love to collaborate or chat over web dev, anime, or comics!</p>
+            <p>I would love to collaborate or chat over web dev, anime, or comics!</p>
             <div className="contact-buttons">
               <a href="mailto:virenpandya1975@gmail.com" className="contact-btn"><FaEnvelope /> Email</a>
               <a href="https://github.com/VIRENPANDYA" target="_blank" className="contact-btn"><FaGithub /> GitHub</a>
