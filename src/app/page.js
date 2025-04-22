@@ -11,7 +11,7 @@ export default function HomePage() {
     <main className="single-page">
       {/* HERO / INTRO */}
       <section className="hero" id="home">
-        <h1>Hi, I'm <span className="highlight">Viren Pandya</span></h1>
+        <h1>Hi, I am <span className="highlight">Viren Pandya</span></h1>
         <p className="tagline">Aspiring Web Developer | Cinephile | Anime & Comic Fan</p>
         <p className="intro">
           Currently studying Computer Programming at Conestoga College, I enjoy crafting clean, responsive websites and full-stack apps using technologies like React, Node.js, and MongoDB.
@@ -49,10 +49,10 @@ export default function HomePage() {
         <div className="timeline">
           <h3>📘 Timeline</h3>
           <ul>
-            <li><span>2018&ndash;2021:</span> IT Diploma &ndash; Polytechnic Gandhinagar</li>
-            <li><span>2023&ndash;2025:</span> Computer Programming &ndash; Conestoga College</li>
+            <li><span>2018 to 2021:</span> IT Diploma, Polytechnic Gandhinagar</li>
+            <li><span>2023 to 2025:</span> Computer Programming, Conestoga College</li>
             <li><span>2024:</span> Solo Game Project: Tank Battle Royal</li>
-            <li><span>2025&ndash;Present:</span> Building Capstone: Forkify</li>
+            <li><span>2025 Present:</span> Building Capstone: Forkify</li>
           </ul>
         </div>
       </section>
