@@ -31,11 +31,7 @@ export default function HomePage() {
             </ul>
           </div>
       </section>
-      {/* Fun Interests */}
-      <div className="interests-banner">
-        <p>🎬 Movie Buff • 📖 ComicBook Fan • 🎮 Casual Gamer</p>
-      </div>
-
+      
       {/* ABOUT */}
       <section className="about-section" id="about">
         <h2>About Me</h2>
@@ -43,7 +39,7 @@ export default function HomePage() {
           I am <strong>Viren Pandya</strong>, currently pursuing a Diploma in <strong>Computer Programming at Conestoga College</strong>, and previously graduated in IT from Gujarat, India.
         </p>
         <p>
-          I bring creativity into code and my love for cinema, anime, and comics drives my eye for design and user experience. My goal is to turn problems into clean, functional digital solutions.
+        I am committed to continuous learning and applying my knowledge to develop efficient and scalable web applications. My goal is to contribute to innovative projects and collaborate with professionals in the tech industry.
         </p>
 
         <div className="timeline">
@@ -67,6 +63,18 @@ export default function HomePage() {
               desc: 'Full-stack app with dynamic reservations, menus & admin dashboard.',
               tech: ['React','JavaScript' ,'MongoDB', 'CSS', 'HTML'],
               link: 'https://github.com/VIRENPANDYA/forkify'
+            },
+            {
+              title: 'Inventory Mangement App',
+              desc: 'A Web-app with all the CRUD operation with Neon.tech database for handling inventory.',
+              tech: ['TypeScript','JavaScript' ,'Neon.Tech', 'CSS', 'Ledger Report'],
+              link: 'https://github.com/VIRENPANDYA/inventory-manager.git'
+            },
+            {
+              title: 'Figurines Shop Web-App',
+              desc: 'A webapp made for monitoring sales of Figurines products.',
+              tech: ['JavaScript' ,'MongoDB', 'CSS', 'EJS'],
+              link: 'https://github.com/VIRENPANDYA/figurines-shop.git'
             },
             {
               title: 'Space Shooter Game',
@@ -102,7 +110,7 @@ export default function HomePage() {
 
           <div className="contact-card">
             <h3>Contact Me</h3>
-            <p>I would love to collaborate or chat over web dev, anime, or comics!</p>
+            <p>I am open to collaboration and opportunities in web development. Feel free to reach out!</p>
             <div className="contact-buttons">
               <a href="mailto:virenpandya1975@gmail.com" className="contact-btn"><FaEnvelope /> Email</a>
               <a href="https://github.com/VIRENPANDYA" target="_blank" className="contact-btn"><FaGithub /> GitHub</a>
